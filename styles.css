@@ -37,7 +37,7 @@ h1 {
    text-shadow: 2px 2px 2px black;
    align-self: center;
 
-   font-size: 50px;
+   font-size: 70px;
    font-weight: 400;
 }
 .hero {
@@ -65,9 +65,12 @@ h1 {
    color: white;
    background-color: rgba(22, 134, 193);
    border-radius: 10px;
-   padding: 15px;
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
    text-align: center;
    line-height: 10px;
+   margin: 55px;
    text-decoration: none;
 }
 .headlinedos p {
@@ -83,6 +86,12 @@ h1 {
    text-align: center;
    line-height: 10px;
    text-decoration: none;
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-align: center;
+   line-height: 10px;
+   margin: 50px;
 }
 .headlinetres a {
    text-align: center;
@@ -94,6 +103,12 @@ h1 {
    text-align: center;
    line-height: 10px;
    text-decoration: none;
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-align: center;
+   line-height: 10px;
+   margin: 55px;
 }
 .headlinetres h3 {
    margin: 20px
@@ -116,7 +131,7 @@ h1 {
    grid-template-columns: repeat(8, 1fr);
    grid-template-rows: 1fr 1fr;
    gap: 40px;
-   margin-top: 50px
+   margin-top: 50px;
 }
 .headlineuno img {
    width: 100%;
@@ -135,9 +150,11 @@ h1 {
 }
 .columnleftuno {
    margin-top: 15px;
+   margin-bottom: 50px
 }
 .columnleftdos {
-   margin-top: 15px
+   margin-top: 15px;
+   margin-bottom: 50px
 }
 .columnleftuno h3, p {
    margin: 30px
@@ -148,47 +165,61 @@ h1 {
 .headlineuno {
    grid-column: 2 / 4;
    background-color: rgba(231, 231, 231, 0.71);
-   height: 520px;
+   height: 450px;
 }
 .headlinedos {
    grid-column: 4 / 6;
    background-color: rgba(231, 231, 231, 0.71);
-   height: 520px;
+   height: 450px;
 }
 .headlinetres {
    grid-column: 6 / 8;
    background-color: rgba(231, 231, 231, 0.71);
-   height: 520px;
+   height: 450px;
 }
 .columnleftuno {
    grid-column: 2 / 5;
    background-color: rgba(231, 231, 231, 0.71);
-   height: 600px;
+   height: 620px;
 
 }
 .columnleftdos {
    grid-column: 5 / 8;
    background-color: rgba(231, 231, 231, 0.71);
-   height: 600px;
-
+   height: 620px;
+}
+.columnleftdos a {
+   border: solid grey;
+   border-radius: 15px;
+   background-color: white;
+   text-decoration: none;
+   color: grey;
+   padding: 10px;
+   margin: 150px
 }
  .serviceheader {
    display: flex;
-   margin-top: 100px;
-   justify-content: center;
    background-image: url(layout-01-assets/img13.jpg);
-   align-items: stretch;
+   align-items: center;
    background-repeat: no-repeat;
-   background-size: cover;
-   padding: 300PX;
+   padding: 40PX;
    flex-direction: column;
-   background-position: center;
+   color: white;
+}
+.serviceheader h2 {
+   text-shadow: 2px 2px 2px rgb(153, 153, 153);
+   font-size: 40px;
+   font-weight: 400;
+}
+.serviceheader p {
+   text-align: center;
 }
 .servicesection {
    display: grid;
    grid-template-columns: repeat(8, 1fr);
    gap: 40px;
-   margin-top: 50px
+   margin-top: 50px;
+   margin-bottom: 50px;
 }
 .columnuno {
    grid-column: 3 / 3;
@@ -198,6 +229,17 @@ h1 {
    grid-column: 4 / 4;
    background-color: rgba(231, 231, 231, 0.71);
 }
+.columndos a {
+   border: solid grey;
+   border-radius: 10px;
+   background-color: white;
+   text-decoration: none;
+   color: grey;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: 50px;
+}
 .columntres {
    grid-column: 5 / 5;
    background-color: rgba(231, 231, 231, 0.71);
@@ -206,10 +248,91 @@ h1 {
    grid-column: 6 / 6;
    background-color: rgba(231, 231, 231, 0.71);
 }
+.columncuatro a {
+   border: solid grey;
+   border-radius: 10px;
+   background-color: white;
+   text-decoration: none;
+   color: grey;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: 55px;
+}
+.columnuno h3, .columndos h3, .columntres h3, .columncuatro h3 {
+   text-align: center;
+}
 .bigcolumn {
    grid-column: 3 / 7;
    background-color: rgba(231, 231, 231, 0.71);
 }
+.bigcolumn h3 {
+   margin: 30px
+}
 .bigcolumn img {
    width: 100%;
+}
+.bigcolumn a {
+   border: solid grey;
+   border-radius: 10px;
+   background-color: white;
+   padding: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-decoration: none;
+   color: grey;
+}
+.contactme {
+   display: flex;
+   background-image: url(layout-01-assets/img14.jpg);
+   background-repeat: no-repeat;
+   padding: 100PX;
+   flex-direction: column;
+   color: white;
+}
+.contactme h2 {
+   text-shadow: 2px 2px 2px rgb(153, 153, 153);
+   font-size: 40px;
+   font-weight: 400;
+   text-align: center;
+}
+.contactme p {
+   color: black;
+   background:rgba(255,255,255,.5);
+   border-radius: 5px;
+   text-align: center;
+   padding: 10px
+}
+.contactme label {
+   background:rgba(255,255,255,.5);
+}
+.form-control {
+   display: block;
+   background:rgba(255,255,255,.5);
+   border: none;
+   border-radius: 5px;
+   padding: 6px 12px;
+   margin: 15px;
+   width: 100%
+}
+textarea.form-control {
+   height: auto;
+}
+.bigfoot h3 {
+   display: flex;
+   justify-content: center;
+   font-weight: 400;
+   font-size: 40px
+}
+.bigfoot p:first-of-type {
+   display: flex;
+   justify-content: center;
+   color: grey
+}
+.bigfoot p:last-of-type {
+   display: flex;
+   justify-content: center;
+   border-top: solid rgb(205, 205, 205) .4px;
+   padding-top: 30px;
+   margin-bottom: 70px;
 }

@@ -88,23 +88,21 @@
             <p> <a href=""> Read More</a></p>
         </article>
     </section>
-    <header>
-        <h2> Contact</h2>
-        <p> Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius condimentum.</p>
-    </header>
-    <form>
-        <label for="name"> Name</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email"> Email</label>
-        <input type="text" id="email" name="email"><br><br>
-        <label for="subject"> Subject</label>
-        <input type="text" id="subject" name="subject"><br><br>
-        <label for="message"> Your Message Here...</label>
-        <input type="text" id="message" name="message"><br><br>
-        <input type="submit" value="Send">
-    </form>
-    <footer>
-        <h3>Footer</h3>
+    <section class="contactme">
+        <header>
+            <h2> Contact Form</h2>
+            <p> Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia. Etiam a mi quis arcu varius condimentum.</p>
+        </header>
+        <form>
+            <input name="name" type="text" class="form-control" id="name" placeholder="Name">
+            <input type="email" name="email" class="form-control" id="mail" placeholder="Email">
+            <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+            <textarea name="message" rows="6" class="form-control" id="comment" placeholder="Your message here..."></textarea>
+            <button type="submit" class="pushmybutton">Send</button>
+        </form>
+    </section>
+    <footer class="bigfoot">
+        <h3> <em> Footer</em></h3>
         <p> <em> Footer Info </em></p>
         <p> Copyright &copy; 2084 Your Company Name</p>
     </footer>
